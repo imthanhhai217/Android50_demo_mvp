@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Android50_demo_mvp</string>
+    <string name="text_register">Dont have an account</string>
+</resources>
