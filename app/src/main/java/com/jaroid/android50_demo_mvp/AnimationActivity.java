@@ -114,8 +114,6 @@ public class AnimationActivity extends AppCompatActivity {
     private void startScaleAnimation() {
         Animation scale = AnimationUtils.loadAnimation(getApplicationContext(), R.anim.scale_animation);
         scale.setFillAfter(true);
-        scale.setDuration(500);
-        scale.setStartOffset(500);
         scale.setInterpolator(new BounceInterpolator());
 //        scale.setRepeatCount(Animation.INFINITE);
 //        scale.setRepeatMode(Animation.REVERSE);

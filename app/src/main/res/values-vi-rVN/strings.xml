@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Android50_demo_mvp</string>
+    <string name="text_register">Không có tài khoản</string>
+</resources>
