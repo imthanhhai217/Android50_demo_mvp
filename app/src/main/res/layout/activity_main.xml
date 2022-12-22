@@ -4,6 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:gravity="center"
+    android:animateLayoutChanges="true"
     android:orientation="vertical"
     tools:context=".MainActivity">
 
@@ -21,6 +22,13 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="@dimen/_10sdp"
         android:hint="passwords" />
+
+    <Button
+        android:id="@+id/btnDemo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:text="Demo" />
 
     <Button
         android:id="@+id/btnSignIn"
